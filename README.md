@@ -1,1 +1,1 @@
-# -Java-
+以上是慕课网[Java入门第一季](http://www.imooc.com/learn/85)、[Java入门第二季](http://www.imooc.com/learn/124)和[Java入门第三季](http://www.imooc.com/learn/110)随课程编写的源java程序。
