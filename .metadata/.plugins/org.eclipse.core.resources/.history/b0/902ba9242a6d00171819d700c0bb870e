@@ -1,0 +1,11 @@
+package com.evan;
+
+public class InitalTelephone {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Telephone phone = new Telephone();
+		phone.sendMessage();
+	}
+
+}

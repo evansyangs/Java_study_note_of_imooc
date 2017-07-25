@@ -1,0 +1,7 @@
+package com.evan;
+
+public abstract class Car {
+	String mingcheng;
+	int zujin;
+	int rongliang;
+}

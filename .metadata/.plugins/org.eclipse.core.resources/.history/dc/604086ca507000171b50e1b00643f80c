@@ -1,0 +1,17 @@
+package com.evan;
+
+public class CellPhone extends Telephone {
+
+	@Override
+	public void call() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void message() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

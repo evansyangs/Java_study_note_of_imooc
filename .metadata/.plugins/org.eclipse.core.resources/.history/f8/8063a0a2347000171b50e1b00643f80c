@@ -1,0 +1,9 @@
+package com.evan;
+
+public class Animal {
+	public int age;
+	public String name;
+	private void ear() {
+		System.out.println("动物具有吃东西的能力");
+	}
+}

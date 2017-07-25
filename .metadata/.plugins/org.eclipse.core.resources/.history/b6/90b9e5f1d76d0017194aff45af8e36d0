@@ -1,0 +1,11 @@
+package com.evan;
+
+public class InitialTelephone {
+	
+	public static void main(String[] args) {
+		Telephone phone = new Telephone();
+		Telephone phone2 = new Telephone(5.0f,1.4f,2.0f);
+		
+	}
+
+}

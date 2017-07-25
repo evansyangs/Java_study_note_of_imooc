@@ -1,0 +1,26 @@
+package com.evan;
+import java.util.Scanner;
+
+public class DaDaRentCar {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		Car[] CarList = {new PassengerCar("奥迪A4",500,4),new PassengerCar("马自达６",400,4),new Pickup_Truck("皮卡雪6",450,4,2),new PassengerCar("金龙",800,20),new Truck("松花江",400,4),new Truck("依维柯",1000,20)};
+		System.out.println("欢迎使用答答租车系统：/n您是否需要租车：1是0否");
+		int iscontinue = input.nextInt();
+		if(iscontinue==0) {
+			System.out.println("您已退出租车系统");
+			System.exit(0);
+		}
+		System.out.println("您可以租车的类型及其价目表：");
+		System.out.println("序号　汽车名称　租金　容量");
+		for(int i=0;i<CarList.length;i++) {
+			System.out.print(i+" ");
+			CarList[i].print();
+		}
+		
+
+	}
+
+}

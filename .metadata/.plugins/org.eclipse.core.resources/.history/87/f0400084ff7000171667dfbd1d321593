@@ -1,0 +1,8 @@
+package com.evan;
+
+public class PassengerCar extends Car {
+	public PassengerCar() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

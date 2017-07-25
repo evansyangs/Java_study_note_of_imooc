@@ -1,0 +1,8 @@
+package com.evan;
+
+public abstract class Car {
+	String mingcheng;
+	int zujin;
+	public abstract void print();
+}
+	

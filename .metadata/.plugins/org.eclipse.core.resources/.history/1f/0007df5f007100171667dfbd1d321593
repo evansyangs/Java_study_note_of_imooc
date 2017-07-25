@@ -1,0 +1,13 @@
+package com.evan;
+
+public abstract class Car {
+	String mingcheng;
+	int zujin;
+	int rongliang;
+	public Car(String mingcheng,int zujin,int rongliang) {
+		// TODO Auto-generated constructor stub
+		this.mingcheng = mingcheng;
+		this.zujin = zujin;
+		this.rongliang = rongliang;
+	}
+}

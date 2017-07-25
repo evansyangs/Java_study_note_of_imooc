@@ -1,0 +1,11 @@
+package com.evan;
+
+public class Car {
+	String mingcheng;
+	int zujin;
+	@Override
+	public String toString() {
+		return mingcheng;
+	}
+	
+}

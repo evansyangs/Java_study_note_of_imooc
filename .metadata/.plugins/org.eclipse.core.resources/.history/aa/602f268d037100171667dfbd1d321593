@@ -1,0 +1,10 @@
+package com.evan;
+
+public class Truck extends Car {
+	public Truck(String mingcheng,int zujin,int rongliang) {
+		// TODO Auto-generated constructor stub
+		this.mingcheng = mingcheng;
+		this.zujin = zujin;
+		this.rongliang = rongliang;
+	}
+}

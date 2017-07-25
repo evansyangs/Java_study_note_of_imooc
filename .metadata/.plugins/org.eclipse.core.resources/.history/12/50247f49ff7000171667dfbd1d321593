@@ -1,0 +1,18 @@
+package com.evan;
+
+public  class Car {
+	private int zujin;
+	private int rongliang;
+	public int getZujin() {
+		return zujin;
+	}
+	public  void setZujin(int zujin) {
+		this.zujin = zujin;
+	}
+	public int getRongliang() {
+		return rongliang;
+	}
+	public void setRongliang(int rongliang) {
+		this.rongliang = rongliang;
+	}
+}
