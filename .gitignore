@@ -9,7 +9,9 @@
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
-.metadata/
+
+#ignore .metadata
+.metadata
 .recommenders
 
 # Package Files #
