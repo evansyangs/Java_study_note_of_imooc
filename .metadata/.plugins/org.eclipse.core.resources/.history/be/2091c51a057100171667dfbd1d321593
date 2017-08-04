@@ -1,6 +1,0 @@
-package com.evan;
-
-public class Car {
-	String mingcheng;
-	int zujin;
-}

@@ -1,7 +1,0 @@
-package com.evan;
-
-public class Dog extends Animal {
-	public void eat() {
-		System.out.println("年龄: "＋age+"狗具有吃东西的能力");
-	}
-}

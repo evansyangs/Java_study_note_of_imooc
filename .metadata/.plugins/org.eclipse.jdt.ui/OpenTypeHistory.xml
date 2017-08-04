@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
-<typeInfo handle="=Project3/\/home\/evan\/jdk\/jdk1.8.0_121\/jre\/lib\/rt.jar&lt;java.lang(Object.class[Object" modifiers="33" timestamp="1481589985000"/>
-<typeInfo handle="=Project4/src&lt;com.evan{Animal.java[Animal" modifiers="1" timestamp="1500885233000"/>
-<typeInfo handle="=Project5/src&lt;com.evan{Telephone.java[Telephone" modifiers="1025" timestamp="1500887797000"/>
-<typeInfo handle="=Project5/src&lt;com.evan{IPlayGame.java[IPlayGame" modifiers="1537" timestamp="1500901650000"/>
-<typeInfo handle="=Demo/src&lt;com.evan{Person.java[Person" modifiers="1" timestamp="1500956053000"/>
+<typeInfo handle="=Project4/src&lt;com.evan{Animal.java[Animal" modifiers="1" timestamp="1501314101092"/>
+<typeInfo handle="=Project5/src&lt;com.evan{Telephone.java[Telephone" modifiers="1025" timestamp="1501314101161"/>
+<typeInfo handle="=Project5/src&lt;com.evan{IPlayGame.java[IPlayGame" modifiers="1537" timestamp="1501314101144"/>
+<typeInfo handle="=Demo/src&lt;com.evan{Person.java[Person" modifiers="1" timestamp="1501314100909"/>
 </typeInfoHistroy>
