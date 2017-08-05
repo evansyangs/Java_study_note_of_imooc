@@ -13,4 +13,8 @@ public class Course {
 		
 		this.name = name;
 	}
+	
+	public Course() {
+		
+	}
 }

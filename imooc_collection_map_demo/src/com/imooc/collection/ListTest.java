@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
+import java.util.jar.Attributes.Name;
 import java.util.zip.CRC32;
 
 
@@ -96,12 +97,46 @@ public class ListTest {
 			System.out.println("课程："+cr.id+":"+cr.name);
 		}
 	}
+	
+	/*
+	 * 修改List中的元素
+	 */
+	public void testModify(){
+		coursesToSelect.set(4, new Course("7", "毛概"));
+	}
+	
+	/*
+	 * 删除List中的元素
+	 */
+	public void testRemove(){
+//		Course cr = (Course) coursesToSelect.get(4);
+		System.out.println("即将删除4位置和5位置上的课程");
+		Course[] courses = {(Course) coursesToSelect.get(4),(Course) coursesToSelect.get(5)};
+		coursesToSelect.removeAll(Arrays.asList(courses));
+//		coursesToSelect.remove(4);
+		System.out.println("成功删除课程！");
+		testForEach();
+	}
+	
+	/*
+	 * 往List中添加一些奇怪的东西
+	 */
+	public void testType() {
+		System.out.println("能否往List中添加一些奇怪的东西呢！？");
+		coursesToSelect.add("我不是课程，我只是一个无辜的字符串！！");
+	}
+	
 	public static void main(String[] args) {
 		ListTest lt = new ListTest();
 		lt.testAdd();
-		lt.testGet();
-		lt.testIterator();
+		lt.testType();
 		lt.testForEach();
+//		lt.testGet();
+//		lt.testIterator();
+//		lt.testForEach();
+//		lt.testModify();
+//		lt.testForEach();
+//		lt.testRemove();
 	}
 
 }
